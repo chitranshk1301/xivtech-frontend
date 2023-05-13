@@ -42,7 +42,7 @@ export default function Collaborate() {
             <div className="col-body-item" key={index}>
               <div className="col-body-title">{item.title}</div>
               <div className="col-body-img">
-                <img src={item.img}></img>
+                <img src={item.img} alt="img"></img>
               </div>
               <div className="col-body-desc">{item.desc}</div>
               <Link to={`/service/${item.to}`} className="col-body-link">
